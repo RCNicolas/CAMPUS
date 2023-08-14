@@ -1,5 +1,3 @@
-#
-
 <h1 align="center">Hola, mi nombre es Nicolas Ruiz </h1>
 
 ###
@@ -16,7 +14,7 @@
 
 ###
 
-<p align="left">Tengo 20, soy estudiante de Electrónica, apasionado por la programación y la tecnologia :)</p>
+<p align="left">Tengo 20, soy estudiante de electrónica, apasionado por la programación y la tecnologia :)</p>
 <p align="left">Soy camper del grupo U2</p>
 
 ##
