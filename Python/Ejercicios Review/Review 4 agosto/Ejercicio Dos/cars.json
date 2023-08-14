@@ -1,0 +1,65 @@
+{
+  "MCT549": {
+    "entrada": true,
+    "salida": false,
+    "visitas": [
+      {
+        "hora ingreso": "07/08/23 07:19",
+        "hora salida": "07/08/23 07:19",
+        "valor pagado": 0.0
+      },
+      {
+        "hora ingreso": "07/08/23 07:20",
+        "hora salida": "07/08/23 07:26",
+        "valor pagado": 50000.0
+      },
+      { "hora ingreso": "07/08/23 09:29", "hora salida": 0, "valor pagado": 0 }
+    ],
+    "cobro": false
+  },
+  "CXD051": {
+    "entrada": true,
+    "salida": false,
+    "visitas": [
+      {
+        "hora ingreso": "07/08/23 07:19",
+        "hora salida": "07/08/23 07:19",
+        "valor pagado": 0.0
+      },
+      { "hora ingreso": "07/08/23 09:33", "hora salida": 0, "valor pagado": 0 }
+    ],
+    "cobro": false
+  },
+  "ABC123": {
+    "entrada": false,
+    "salida": true,
+    "cobro": true,
+    "visitas": [
+      {
+        "hora ingreso": "07/08/23 07:26",
+        "hora salida": "07/08/23 07:27",
+        "valor pagado": 8333.33
+      }
+    ]
+  },
+  "123ABC": {
+    "entrada": false,
+    "salida": true,
+    "cobro": true,
+    "visitas": [
+      {
+        "hora ingreso": "07/08/23 09:33",
+        "hora salida": "07/08/23 09:34",
+        "valor pagado": 8333.33
+      }
+    ]
+  },
+  "QWE123": {
+    "entrada": true,
+    "salida": false,
+    "cobro": false,
+    "visitas": [
+      { "hora ingreso": "07/08/23 09:37", "hora salida": 0, "valor pagado": 0 }
+    ]
+  }
+}

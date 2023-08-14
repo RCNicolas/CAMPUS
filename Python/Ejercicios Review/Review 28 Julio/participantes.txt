@@ -1,0 +1,5 @@
+10005|Nico|20|atletismo|True|1.0|
+4578|Kevin|21|atletismo|True|5.0|
+7841|Clau|21|atletismo|True|25.03|
+45230|Cris|20|atletismo|True|2.03|
+784512|Mario|21|atletismo|True|1.0|

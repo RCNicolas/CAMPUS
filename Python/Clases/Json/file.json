@@ -1,0 +1,10 @@
+{ "colombia": { "poblacion": 100000, "moneda": "peso", "continente": "america", "area": 300000},
+ "brazil": { "poblacion": 65400, "moneda": "peso", "continente": "america", "area": 1},
+ "peru": { "poblacion": 785642310, "moneda": "peso", "continente": "america", "area": 30451210000},
+ "chile": { "poblacion": 5453110, "moneda": "peso", "continente": "america", "area": 45412},
+ "estados unidos": { "poblacion": 8976432123000, "moneda": "dolar", "continente": "america", "area": 87451},
+ "italia": { "poblacion": 87845, "moneda": "lira", "continente": "europa", "area": 20},
+ "españa": { "poblacion": 87845112, "moneda": "euro", "continente": "europa", "area": 54220},
+ "reino unido": { "poblacion": 8784510, "moneda": "libra", "continente": "europa", "area": 450121},
+ "francia": { "poblacion": 45454, "moneda": "euro", "continente": "europa", "area": 545120},
+ "polonia": { "poblacion": 787410, "moneda": "euro", "continente": "europa", "area": 87821100}}
