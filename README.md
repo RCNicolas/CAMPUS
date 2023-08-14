@@ -1,15 +1,13 @@
 <h1 align="center">Hola, mi nombre es Nicolas Ruiz </h1>
 
-###
-
+### 
+<!--
 <div align="center">
   <a href="https://www.instagram.com/nicosanrz/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="37" height="25" alt="instagram logo"  />
   </a>
 </div>
-
-##
-
+-->
 <h3 align="left">Acerca de mi:</h3>
 
 ###
