@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-widtd, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body style="background-color: darkgrey;">
@@ -10,34 +10,150 @@
     <table border="1"">
         <thead>
             <tr>
+                <th>#</th>
                 <th>Etiqueta o atributo</th>
                 <th>Pertenece a...</th>
                 <th>Descripcion</th>
                 <th> Alternativa actual</th>
-                <th>Ejemplo (Con la Alternativa actual o si tiene con la obsoleta en su defecto)</th>
+                <th>Ejemplo (Con la Alternativa actual o si tiene con la obsoleta en su defecto)</td>
             </tr>
         </thead>
         <tbody style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
             <tr>
-                <th> < applet > </th>
-                <th>No aplica</th>
-                <th> Un applet es un programa, componente o aplicacion que se ejecuta dentro del contexto de otro programa o aplicacion escrito en JAVA
+                <td>1</td>
+                <td> < applet > </td>
+                <td>No aplica</td>
+                <td> Un applet es un programa, componente o aplicacion que se ejecuta dentro del contexto de otro programa o aplicacion escrito en JAVA
                     <p> < h6 > Utilizando la etiqueta '< applet >' < h6 > 
-                        < applet > code="mi_applet.class" width="640" height="480"> < /applet > /p>
-                </th>
-                <th> < object ></th>
-                <th>Recurso externo que puede ser tratado, como una imagen, un contexto de navegacion anidado, o como un recurso que debe ser manejado por un complemento.
+                        < applet > code="mi_applet.class" widtd="640" height="480"> < /applet > /p>
+                </td>
+                <td> < object ></td>
+                <td>Recurso externo que puede ser tratado, como una imagen, un contexto de navegacion anidado, o como un recurso que debe ser manejado por un complemento.
                     <p>< h5 > Utilizanod la etiqueta '< object >' < h5 > 
-                        < object > type="aplication/pdf" data="./hiragana-y-katana.grf" width="250" height="200"> < object ></p>
-                </th>
+                        < object > type="aplication/pdf" data="./hiragana-y-katana.grf" widtd="250" height="200"> < object ></p>
+                </td>
             </tr>
             <tr>
-                <th>< acronym ></th>
-                <th>No aplica</th>
-                <th>Se utilizaba en HTML para definir un acronimo o abreviar palabras en el contnido web</th>
-                <th></th>
-                <th></th>
-                <th></th>
+                <td>2</td>
+                <td>< acronym ></td>
+                <td>No aplica</td>
+                <td>Se utilizaba en HTML para definir un acronimo o abreviar palabras en el contenido web</td>
+                <td> < audio >  No funciona sin atributos de control, controls, autoplay y preload</td>
+                <td>&lt;p&gt;;El &lt;abbr title="League Of Legends">LOL&gt;/abbr&lt; es un juego de estrategia&lt;/p&gt;</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>&lt;bgsound&gt;</td>
+                <td>No aplica</td>
+                <td>Incorpora sonidos de fondo que se ejecuta cuando se entra a la pagina. Solo es interpretada por Internet Explorer. Acepta formatos Mp3, MID, AU y WAV. &lt;audio&gt; No se reproduce solo, se necesita que el usuario oprima play con el controls que se agrega a la etiqueta y  pasa con el preload y que cargue el archivo de audio.</td>
+                <td>&lt;audio&gt;  No funciona sin atributos de control, controls, autoplay y preload</td>
+                <td> < audio src="audio.mp3">< /audio > ( src-source)//// < audio src="audio.mp3" controls autoplay loop>< /audio > ////< audio src="audio.ogg" preload="none">< /audio ></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>&lt;dir&gt;</td>
+                <td>No aplica</td>
+                <td>La etiqueta &lt;dir&gt; era una etiqueta obsoleta en HTML que se utilizaba para crear una lista de elementos de directorio. Cada elemento en la lista representaba un ítem dentro de un directorio, como una carpeta en un sistema de archivos</td>
+                <td>actualmente se recomienda utilizar &lt;ul&gt;&lt;/ul&gt; listas no ordenadas y &lt;ol&gt;&lt;/ol&gt; listas ordenadas junto con
+                    &lt;li&gt; que es el elemento de la lista</td>
+                <td><!--como se debe manejar actualmente-->
+
+                    &lt;ul&gt;
+                        &lt;li&gt;lista1&lt;/l&gt;>
+                        &lt;li&gt;lista2&lt;/l&gt;>
+                        &lt;li&gt;lista3&lt;/l&gt;>
+                    &lt;/u&gt;>
+                    
+                    
+                    &lt;ol&gt;
+                        &lt;li&gt;lista1&lt;/l&gt;>
+                        &lt;li&gt;lista2&lt;/l&gt;>
+                        &lt;li&gt;lista3&lt;/l&gt;>
+                    &lt;/o&lt;&gt;</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>&lt;frameset&gt;</td>
+                <td>No aplica </td>
+                <td>Los marcos (frames) son áreas separadas y ajustables dentro de una página web
+                    donde se pueden cargar diferentes documentos HTML.</td>
+                <td>CSS Grid o &lt;div&gt;</td>
+                <td>Respons</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>&lt;noframes&gt;</td>
+                <td>No aplica</td>
+                <td>Se usó en HTML 4 para actuar como una etiqueta alternativa para los navegadores que no admitían marcos.</td>
+                <td></td>
+                <td>&lt;frameset cols="25%,50%,25%"&gt;
+                    &lt;frame src="frame_a.htm"&gt;
+                    &lt;frame src="frame_b.htm"&gt;
+                    &lt;noframes&gt;lo siento, su navegador no maneja marcos!&lt;/noframes&gt;
+                    &lt;/frameset&gt;</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>&lt;hgroup&gt;</td>
+                <td>No aplica</td>
+                <td>El elemento hgroup representa al bloque de encabezado de una sección. y usualmente agrupa encabezados consecutivos (h1 a h6). Un encabezado de niveles múltiples puede ser usado para proveer subtítulos, títulos alternativos o eslóganes.</td>
+                <td>&lt;div class="container"&gt;&lt;/div&gt;</td>
+                <td> !--ejemplo con &lt;hgroup&gt;--
+                    <p>&lt;hgroup&gt;
+                        &lt;h1&gt;Alien&lt;/h1&gt;
+                        &lt;h2&gt;En el espacio, nadie te escuchará gritar&lt;/h2&gt;
+                      &lt;/hgroup&gt;
+                      &lt;p&gt;La nave comercial Nostromo recibe una llamada de auxilio desde un planeta no explorado. 
+                        Luego de buscar sobrevivientes, la tripulación se dirige a casa sólo para darse cuenta que una mortal forma de vida se les ha unido.&lt;/p&gt;
+                    </p>
+                    !--ejemplo con la alternativa--;
+                    <p>
+                    &lt;div class="container"&gt;
+                        &lt;h1&gt;Alien&lt;/h1&gt;
+                        &lt;h2&gt;En el espacio, nadie te escuchará gritar&lt;/h2&gt;
+                    &lt;/div&gt;
+                      &lt;p&gt;La nave comercial Nostromo recibe una llamada de auxilio desde un planeta no explorado.
+                        Luego de buscar sobrevivientes, la tripulación se dirige a casa sólo para darse cuenta que una mortal forma de vida se les ha unido.&lt;/p&gt;
+                    </p></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>&lt;isindex&gt;</td>
+                <td>No aplica</td>
+                <td>Esta etiqueta se utilizaba para insertar un input de texto , y lo que escribes es buscado en el html</td>
+                <td>se usa la etiqueta input que debe estar dentro de la etiqueta form</td>
+                <td>&lt;FORM action="..." metdod="post"&gt;
+                    &lt;P&gt;Entre la frase a buscar: &lt;INPUT type="text"&gt;&lt;/P&gt;
+                    &lt;/FORM&gt;</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>&lt;listing&gt;, &lt;xmp&gt;</td>
+                <td>No aplica</td>
+                <td>
+                    Listing fue una etiqueta similar a **pre** o **code**, es decir, se utilizaba para insertar codigo y que no fuera interpretado, sino estilizado visualmente.El elemento HTML XMP  &lt;xmp&gt; dibuja texto entre las etiquetas de inicio y fin sin interpretar el HTML que se encuentra en medio y lo muestra usando un tipo de letra monoespaciada</td>
+                <td>&lt;pre&gt;, &lt;code&gt;</td>
+                <td>&lt;code&gt;print("hola mundo")&lt;/code&gt; &lt;pre&gt; Interpreta el codigo preformateado &lt;/pre&gt;</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>&lt;noembed&gt;</td>
+                <td>No aplica</td>
+                <td>El elemento HTML &lt;noembed&gt; es una forma obsoleta y no estándar de proporcionar contenido alternativo para navegadores que no admiten el elemento &lt;embed&gt; o no admiten el tipo de contenido incrustado que un autor desea usar. El Elemento HTML Embed ( &lt;embed&gt; ) representa un punto de integración para una aplicación externa o de contenido interactivo.</td>
+                <td>&lt;object&gt;</td>
+                <td>OLD :   &lt;body&gt;
+                    &lt;embed src = "/html/yourfile.swf" width = "200" height = "200" &gt;
+                       &lt;noembed&gt;&lt;img src = "yourimage.gif" alt = "Alternative Media" &gt;&lt;/noembed&gt;
+                    &lt;/embed&gt;
+                 &lt;/body&gt;------------------------------------------------------------------------------------------------------------------------------------NEW:                  &lt;object data="pic_trulli.jpg" width="300" height="200"&gt;&lt;/object&gt; </td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>&lt;basefont&gt;</td>
+                <td>No aplica</td>
+                <td>es una etiqueta que se usaba con la finalidad de darle estilo a los textos no es reconmendable ni se usa en la actualidad</td>
+                <td>hojas de estilo</td>
+                <td>!--forma antigua--&lt;basefont &gt;color="green">&lt;/basefont&gt; <!--forma nueva-->    .texto{color:green;}</td>
             </tr>
         </tbody>
     </table>
